@@ -29,12 +29,18 @@ const HeroSection = () => {
   return (
     <section className="pt-40 pb-20 px-4">
       <div className="container mx-auto text-center">
-        <h1 className="text-5xl md:text-8xl lg:text-[105px] pb-6 gradient-title">
-          Manage Your Finances <br /> with Intelligence
+        <h1 className="text-5xl md:text-8xl lg:text-[105px] pb-6 text-center font-extrabold leading-tight">
+          <span className="bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-600 bg-clip-text text-transparent">
+            Take Control of Your Money
+          </span>
+          <br />
+          <span className="bg-gradient-to-r from-green-400 to-lime-500 bg-clip-text text-transparent animate-pulse">
+            with Smart Insights
+          </span>
         </h1>
+
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-          An AI-powered financial management platform that helps you track,
-          analyze, and optimize your spending with real-time insights.
+          AI-driven financial insights to help you spend smarter and save more.
         </p>
         <div className="flex justify-center space-x-4">
           <Link href="/dashboard">
@@ -44,14 +50,14 @@ const HeroSection = () => {
           </Link>
           <Link href="https://www.youtube.com/roadsidecoder">
             <Button size="lg" variant="outline" className="px-8">
-              Watch Demo
+              See It in Action
             </Button>
           </Link>
         </div>
         <div className="hero-image-wrapper mt-5 md:mt-0">
           <div ref={imageRef} className="hero-image">
             <Image
-              src="/banner.jpeg"
+              src="/banner.png"
               width={1280}
               height={720}
               alt="Dashboard Preview"
