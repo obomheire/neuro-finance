@@ -31,7 +31,7 @@ const HeroSection = () => {
       <div className="container mx-auto text-center">
         <h1 className="text-5xl md:text-8xl lg:text-[105px] pb-6 text-center font-extrabold leading-tight">
           <span className="bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-600 bg-clip-text text-transparent">
-            Take Control of Your Money
+            Take Control of Your Fund
           </span>
           <br />
           <span className="bg-gradient-to-r from-green-400 to-lime-500 bg-clip-text text-transparent animate-pulse">
