@@ -107,21 +107,44 @@ const LandingPage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-blue-600">
+      {/* <section className="py-20 bg-green-900">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Take Control of Your Finances?
+            Take the First Step Toward Financial Freedom
           </h2>
           <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
-            Join thousands of users who are already managing their finances
-            smarter with NeuroFinance
+            Be part of the growing community simplifying money management with
+            NeuroFinance.
           </p>
           <Link href="/dashboard">
             <Button
               size="lg"
               className="bg-white text-blue-600 hover:bg-blue-50 animate-bounce"
             >
-              Start Free Trial
+              Start for Free
+            </Button>
+          </Link>
+        </div>
+      </section> */}
+      <section className="py-20 bg-green-900">
+        <div className="container mx-auto px-4 text-center">
+          {/* Continuous pulse */}
+          <h2 className="text-3xl font-bold text-white mb-4 animate-text-pulse">
+            Take the First Step Toward Financial Freedom
+          </h2>
+
+          {/* Continuous floating effect */}
+          <p className="text-blue-100 mb-8 max-w-2xl mx-auto animate-float">
+            Be part of the growing community simplifying money management with
+            NeuroFinance.
+          </p>
+
+          <Link href="/dashboard">
+            <Button
+              size="lg"
+              className="bg-white text-blue-600 hover:bg-blue-50 animate-bounce"
+            >
+              Start for Free
             </Button>
           </Link>
         </div>
