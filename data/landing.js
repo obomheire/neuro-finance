@@ -9,103 +9,117 @@ import {
 
 // Stats Data
 export const statsData = [
-  {
-    value: "50K+",
-    label: "Active Users",
-  },
-  {
-    value: "$2B+",
-    label: "Transactions Tracked",
-  },
-  {
-    value: "99.9%",
-    label: "Uptime",
-  },
-  {
-    value: "4.9/5",
-    label: "User Rating",
-  },
+  { value: "$2M+", label: "Transactions Processed" },
+  { value: "99.9%", label: "Platform reliability" },
+  { value: "1M+", label: "Global User Base" },
+  { value: "4.9/5", label: "User Satisfaction" },
 ];
 
 // Features Data
 export const featuresData = [
   {
-    icon: <BarChart3 className="h-8 w-8 text-blue-600" />,
-    title: "Advanced Analytics",
+    icon: <BarChart3 className="h-8 w-8 text-green-600" />,
+    title: "AI-Driven Analytics",
     description:
-      "Get detailed insights into your spending patterns with AI-powered analytics",
+      "Unlock powerful insights into your spending with intelligent data analysis.",
   },
   {
-    icon: <Receipt className="h-8 w-8 text-blue-600" />,
-    title: "Smart Receipt Scanner",
+    icon: <Receipt className="h-8 w-8 text-green-600" />,
+    title: "Intelligent Receipt Capture",
     description:
-      "Extract data automatically from receipts using advanced AI technology",
+      "Automatically scan and extract key details from your receipts in seconds.",
   },
   {
-    icon: <PieChart className="h-8 w-8 text-blue-600" />,
-    title: "Budget Planning",
-    description: "Create and manage budgets with intelligent recommendations",
+    icon: <PieChart className="h-8 w-8 text-green-600" />,
+    title: "Smart Budgeting",
+    description:
+      "Plan, create, and optimize budgets with personalized AI recommendations.",
   },
   {
-    icon: <CreditCard className="h-8 w-8 text-blue-600" />,
-    title: "Multi-Account Support",
-    description: "Manage multiple accounts and credit cards in one place",
+    icon: <CreditCard className="h-8 w-8 text-green-600" />,
+    title: "Unified Account Management",
+    description:
+      "Keep all your bank accounts and credit cards organized in one dashboard.",
   },
   {
-    icon: <Globe className="h-8 w-8 text-blue-600" />,
-    title: "Multi-Currency",
-    description: "Support for multiple currencies with real-time conversion",
+    icon: <Globe className="h-8 w-8 text-green-600" />,
+    title: "Global Currency Support",
+    description:
+      "Track and convert multiple currencies instantly with live exchange rates.",
   },
   {
-    icon: <Zap className="h-8 w-8 text-blue-600" />,
-    title: "Automated Insights",
-    description: "Get automated financial insights and recommendations",
+    icon: <Zap className="h-8 w-8 text-green-600" />,
+    title: "Proactive Insights",
+    description:
+      "Receive automated tips and recommendations to improve your finances.",
   },
 ];
+
 
 // How It Works Data
 export const howItWorksData = [
   {
-    icon: <CreditCard className="h-8 w-8 text-blue-600" />,
-    title: "1. Create Your Account",
+    icon: <CreditCard className="h-8 w-8 text-green-600" />,
+    title: "1. Sign Up Easily",
     description:
-      "Get started in minutes with our simple and secure sign-up process",
+      "Create your account in just minutes with a quick and secure registration.",
   },
   {
-    icon: <BarChart3 className="h-8 w-8 text-blue-600" />,
-    title: "2. Track Your Spending",
+    icon: <BarChart3 className="h-8 w-8 text-green-600" />,
+    title: "2. Monitor Your Finances",
     description:
-      "Automatically categorize and track your transactions in real-time",
+      "Stay on top of your spending with automatic transaction tracking and categorization.",
   },
   {
-    icon: <PieChart className="h-8 w-8 text-blue-600" />,
-    title: "3. Get Insights",
+    icon: <PieChart className="h-8 w-8 text-green-600" />,
+    title: "3. Unlock Smart Insights",
     description:
-      "Receive AI-powered insights and recommendations to optimize your finances",
+      "Gain personalized, AI-driven insights and recommendations to improve your financial health.",
   },
 ];
 
 // Testimonials Data
 export const testimonialsData = [
   {
-    name: "Sarah Johnson",
-    role: "Small Business Owner",
-    image: "https://randomuser.me/api/portraits/women/75.jpg",
+    name: "Amina Bello",
+    role: "Healthcare Professional",
+    image: "https://randomuser.me/api/portraits/women/21.jpg",
     quote:
-      "NeuroFinance has transformed how I manage my business finances. The AI insights have helped me identify cost-saving opportunities I never knew existed.",
+      "Managing personal expenses used to be stressful, but now I feel confident. NeuroFinance makes budgeting simple and effective.",
   },
   {
-    name: "Michael Chen",
-    role: "Freelancer",
-    image: "https://randomuser.me/api/portraits/men/75.jpg",
+    name: "David Kim",
+    role: "Independent Consultant",
+    image: "https://randomuser.me/api/portraits/men/26.jpg",
     quote:
-      "The receipt scanning feature saves me hours each month. Now I can focus on my work instead of manual data entry and expense tracking.",
+      "The smart receipt scanner is a lifesaver. It cuts out hours of manual entry, giving me more time to focus on growing my business.",
   },
   {
-    name: "Emily Rodriguez",
-    role: "Financial Advisor",
-    image: "https://randomuser.me/api/portraits/women/74.jpg",
+    name: "Olivia Martinez",
+    role: "Wealth Manager",
+    image: "https://randomuser.me/api/portraits/women/72.jpg",
     quote:
-      "I recommend NeuroFinance to all my clients. The multi-currency support and detailed analytics make it perfect for international investors.",
+      "I recommend NeuroFinance to my clients every day. The real-time analytics and global currency features make it invaluable for international portfolios.",
+  },
+  {
+    name: "James Anderson",
+    role: "Startup Founder",
+    image: "https://randomuser.me/api/portraits/men/32.jpg",
+    quote:
+      "Managing multiple accounts used to be a nightmare. With NeuroFinance, I can see everything in one dashboard and make faster, smarter decisions.",
+  },
+  {
+    name: "Sophia Williams",
+    role: "Entrepreneur",
+    image: "https://randomuser.me/api/portraits/women/26.jpg",
+    quote:
+      "NeuroFinance completely changed how I handle my company’s finances. The AI-driven insights uncovered savings I would have otherwise missed.",
+  },
+  {
+    name: "Kwame Mensah",
+    role: "Tech Entrepreneur",
+    image: "https://randomuser.me/api/portraits/men/12.jpg",
+    quote:
+      "Tracking multiple revenue streams was overwhelming. NeuroFinance brings everything together, helping me stay focused and profitable.",
   },
 ];
