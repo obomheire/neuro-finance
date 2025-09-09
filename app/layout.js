@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "NeuroFinance",
   description: "One stop Finance Platform",
-};
+}; // metadata
 
 export default function RootLayout({ children }) {
   return (
